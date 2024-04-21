@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 final Uri startUrl = Uri.parse('https://t.me/jiliparkph77');
@@ -37,7 +36,7 @@ class _AppState extends State<App> {
                   shape: BoxShape.circle,
                   border: Border.all(color: Colors.white, width: 2),
                   image: DecorationImage(
-                      image: AssetImage('assets/FrontImage.jpg'))),
+                      image: AssetImage('assets/playstore.png'))),
             ),
             const Text(
               'Menu',
@@ -82,7 +81,7 @@ class _AppState extends State<App> {
             ),
             const SizedBox(height: 15),
             TextButton(
-              onPressed: () => SystemNavigator.pop(),
+              onPressed: () => Navigator.pop(context),
               style: TextButton.styleFrom(
                 backgroundColor: const Color.fromARGB(255, 235, 97, 216),
                 side: const BorderSide(color: Colors.yellow, width: 8),
