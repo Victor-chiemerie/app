@@ -54,7 +54,7 @@ class _AppState extends State<App> {
                     const EdgeInsets.symmetric(horizontal: 35, vertical: 20),
               ),
               child: const Text(
-                'Support',
+                "Let's go",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 30,
